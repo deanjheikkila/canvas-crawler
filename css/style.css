@@ -7,7 +7,7 @@ body {
   padding-top: 1em;
   text-align: center;
   background-color: black;
-  /* background-image: url('../img/dungeonhell.png'); */
+  background-image: url('../img/dungeonhell.png');
   background-size: cover;
   background-repeat: space;
 }
@@ -19,9 +19,9 @@ h1, h2 {
 }
 
 canvas {
-  /* background-image: url('../img/stone.png'); */
-  /* background-repeat: repeat; */
   background-color: #222;
+  background-image: url('../img/stone.png');
+  background-repeat: repeat;
   width: 100%;
   height: 400px;
 }
@@ -53,9 +53,9 @@ grid-template-areas: "top-left top-left top-right"
 }
 
 #top-right {
+  background-color: #222;
   grid-area: top-right;
-  /* background-color: #222; */
-  /* background-image: url('../img/funky-lines.png'); */
+  background-image: url('../img/funky-lines.png');
 }
 
 main {
@@ -71,4 +71,10 @@ main {
 #btm-right {
   grid-area: btm-right;
   /* background-color: #222; */
+}
+
+#extra {
+  width: 46px;
+  height: 44px;
+  background: url(img/dungeonhell.png) 20 20;
 }
